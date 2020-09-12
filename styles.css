@@ -1,4 +1,65 @@
 .container {
-  background-color: green;
-  width: 800px;
+    width: 800px;
+    background-color:green;
+    margin: 0 auto;
+}
+
+.heading {
+    top: 0;
+    height: 30px;
+    font-size: 24px;
+}
+
+.heading, #video {
+    position: fixed;
+    text-align: center;
+    width: 800px;
+    background-color: black;
+    color: white;
+}
+
+#video {
+    top: 30px;
+    background: url(../img/video.png);
+    width: 800px;
+    height: 450px;
+}
+
+#video-list {
+    padding: 475px 20px 10px;
+}
+
+p, h3 {
+    padding: 0;
+    margin: 0;    /* line-height: 1.3; */
+}
+
+p {
+    color: #403838;
+    font-size: 16px;
+    padding-top: 5px;
+}
+.video {
+    padding: 10px 10px;
+    border: 4px solid black;
+    margin: 6px auto;
+    width: 500px;
+    height: 125px;
+    background: #c2c2c2;
+}
+
+.video:hover {
+    border: 4px solid black;
+    cursor: pointer;
+    background-color: white;
+}
+
+.video img {
+    height: 125px;
+    float: left;
+    margin-right: 15px;
+}
+
+.description {
+    padding: 10px 10px ;
 }
